@@ -1,0 +1,68 @@
+body {
+  background:  white;
+  height: 100vh;
+  font-family:"Poppins" !important
+}
+.MuiPaginationItem-ellipsis{
+  padding: 8px 7px !important;
+}
+#root {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgb(65, 65, 65); 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #08A9F3; 
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #08A9F3; 
+}
+
+.waving-hand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+/* li{
+  padding-left: 0px !important;
+} */
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(14deg);
+  }
+  30% {
+    transform: rotate(-8deg);
+  }
+  40% {
+    transform: rotate(14deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

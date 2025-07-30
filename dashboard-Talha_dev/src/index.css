@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Poppins !important";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.otp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+.otp-container input{
+  width: 50px !important; /* Width of each input */
+  height: 50px; /* Height of each input */
+  font-size: 24px; /* Font size for the input */
+  text-align: center; /* Center text */
+  border: 2px solid #0f5189; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  margin: 0 5px; /* Space between inputs */
+  outline: none; /* Remove outline on focus */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+  background-color: transparent;
+  color: rgb(32, 31, 31);
+
+}
+/*  */
+
+.otp-input:focus {
+  border-color: #0f5189; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+}
+/* .css-er3prf-MuiButtonBase-root-MuiToggleButton-root.Mui-selected{
+  background-color: #0f5189 !important;
+  color: white !important; 
+}
+.css-eysexx-MuiButtonBase-root-MuiToggleButton-root.Mui-selected{
+  background-color: #0f5189 !important;
+  color: white !important; 
+} */
