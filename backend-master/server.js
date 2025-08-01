@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded({
 app.use("/media", express.static(path.join(__dirname, "uploads")));
 
 app.use(cors({
-    origin: ['http://localhost:3003','http://localhost:3001','https://vakeel-db.surge.sh'],
+    origin: ['http://localhost:3003','http://localhost:3001','http://localhost:3002','https://vakeel-db.surge.sh'],
     credentials: true
 }));
 

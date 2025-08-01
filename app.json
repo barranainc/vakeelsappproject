@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Vakeel",
+    "slug": "vakeel-ios",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/Images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/Images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F5189"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vakeel.ios",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Vakeel needs access to location to provide location-based legal services.",
+        "NSCameraUsageDescription": "Vakeel needs access to camera to capture documents and photos for legal matters.",
+        "NSPhotoLibraryUsageDescription": "Vakeel needs access to photo library to select documents and photos for legal matters.",
+        "NSMicrophoneUsageDescription": "Vakeel needs access to microphone for voice messages and calls."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/Images/adaptive-icon.png",
+        "backgroundColor": "#0F5189"
+      },
+      "package": "com.vakeel.android"
+    },
+    "web": {
+      "favicon": "./src/assets/Images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./src/assets/Images/notification-icon.png",
+          "color": "#0F5189"
+        }
+      ]
+    ]
+  }
+} 

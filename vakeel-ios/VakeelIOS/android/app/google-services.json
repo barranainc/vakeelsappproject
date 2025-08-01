@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "673760346736",
+    "project_id": "vakeelapp-ba34b",
+    "storage_bucket": "vakeelapp-ba34b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673760346736:android:4cb3f9b8b9d8e62b1faab5",
+        "android_client_info": {
+          "package_name": "com.vakeel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwXZwtMgU06fr6SwPIZhT9xUrU8kKDWys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
